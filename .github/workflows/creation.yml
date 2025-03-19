@@ -1,4 +1,4 @@
-name: Terraform AWS EC2 Deployment
+name: Three tier architecture
 
 on:
   workflow_dispatch:
