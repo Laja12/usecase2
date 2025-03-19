@@ -29,5 +29,5 @@ jobs:
       - name: Terraform plan
         run: terraform plan -lock=false
 
-      - name: Apply Terraform plan
+      - name: Apply Terraform
         run: terraform apply -lock=false -auto-approve  
