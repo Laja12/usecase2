@@ -25,7 +25,7 @@ jobs:
       - name: 'Terraform Init'
         run: terraform init
       - name: 'Terraform Plan Destroy'
-        run: terraform plan -destroy
+        run: terraform plan -lock=false -destroy
  
       - name: 'Terraform Destroy'
-        run: terraform destroy -auto-approve
+        run: terraform destroy -lock=false -auto-approve
